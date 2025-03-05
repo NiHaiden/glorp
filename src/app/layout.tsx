@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://glorp.getaurora.dev'),
   title: "Glorp is everywhere",
   description: "All hail Glorp",
   openGraph: {
