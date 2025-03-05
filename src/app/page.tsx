@@ -1,14 +1,12 @@
 "use client";
 
-import Image from "next/image";
-
 export default function Home() {
   const elements = Array.from({ length: 24 }, (_, index) => index + 1);
   return (
     <div className="flex flex-col h-dvh w-dvw gap-10 p-10">
       <h1 className="text-4xl font-bold">GLORP IS EVERYWHERE</h1>
       <h1 className="text-4xl font-bold">ALL HAIL GLORP</h1>
-      
+
       <div className="flex flex-wrap gap-10">
         {elements.map((element) => {
           return (
