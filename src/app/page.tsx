@@ -11,7 +11,7 @@ export default function Home() {
         {elements.map((element) => {
           return (
             <>
-              <div key={element + 2} className={`relative w-50 h-50 ${element % 2 === 0 ? "animate-bounce": "animate-spin"}`}>
+              <div key={element + 2} className={`relative h-65 ${element % 2 === 0 ? "animate-bounce": "animate-spin"}`}>
                 <img
                   src={"/glorp_alien.png"}
                   alt="Image"
